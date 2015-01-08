@@ -21,5 +21,8 @@
 		<mapping resource="com/yiibai/EmployeeSet.hbm.xml" />
 		<mapping resource="com/yiibai/EmployeeSortedSet.hbm.xml" />
 		<mapping resource="com/yiibai/EmployeeList.hbm.xml" />
+
+		<mapping resource="com/yiibai/mapping/EmployeeMany2One.hbm.xml" />
+		<mapping resource="com/yiibai/mapping/EmployeeOne2Many.hbm.xml" />
 	</session-factory>
 </hibernate-configuration>

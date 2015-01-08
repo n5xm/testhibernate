@@ -1,0 +1,36 @@
+Hibernate: insert into EMPLOYEE_ONE2MANY (first_name, last_name, salary) values (?, ?, ?)
+Hibernate: insert into CERTIFICATE_ONE2MANY (certificate_name) values (?)
+Hibernate: insert into CERTIFICATE_ONE2MANY (certificate_name) values (?)
+Hibernate: insert into CERTIFICATE_ONE2MANY (certificate_name) values (?)
+Hibernate: update CERTIFICATE_ONE2MANY set employee_id=? where id=?
+Hibernate: update CERTIFICATE_ONE2MANY set employee_id=? where id=?
+Hibernate: update CERTIFICATE_ONE2MANY set employee_id=? where id=?
+Hibernate: insert into EMPLOYEE_ONE2MANY (first_name, last_name, salary) values (?, ?, ?)
+Hibernate: insert into CERTIFICATE_ONE2MANY (certificate_name) values (?)
+Hibernate: insert into CERTIFICATE_ONE2MANY (certificate_name) values (?)
+Hibernate: update CERTIFICATE_ONE2MANY set employee_id=? where id=?
+Hibernate: update CERTIFICATE_ONE2MANY set employee_id=? where id=?
+Hibernate: select employeeon0_.id as id9_, employeeon0_.first_name as first2_9_, employeeon0_.last_name as last3_9_, employeeon0_.salary as salary9_ from EMPLOYEE_ONE2MANY employeeon0_
+First Name: Manoj  Last Name: Kumar  Salary: 4000
+Hibernate: select certificat0_.employee_id as employee3_9_1_, certificat0_.id as id1_, certificat0_.id as id10_0_, certificat0_.certificate_name as certific2_10_0_ from CERTIFICATE_ONE2MANY certificat0_ where certificat0_.employee_id=?
+CertificateOne2Many: MBA
+CertificateOne2Many: MCA
+CertificateOne2Many: PMP
+First Name: Dilip  Last Name: Kumar  Salary: 3000
+Hibernate: select certificat0_.employee_id as employee3_9_1_, certificat0_.id as id1_, certificat0_.id as id10_0_, certificat0_.certificate_name as certific2_10_0_ from CERTIFICATE_ONE2MANY certificat0_ where certificat0_.employee_id=?
+CertificateOne2Many: BA
+CertificateOne2Many: BCA
+Hibernate: select employeeon0_.id as id9_0_, employeeon0_.first_name as first2_9_0_, employeeon0_.last_name as last3_9_0_, employeeon0_.salary as salary9_0_ from EMPLOYEE_ONE2MANY employeeon0_ where employeeon0_.id=?
+Hibernate: update EMPLOYEE_ONE2MANY set first_name=?, last_name=?, salary=? where id=?
+Hibernate: select employeeon0_.id as id9_0_, employeeon0_.first_name as first2_9_0_, employeeon0_.last_name as last3_9_0_, employeeon0_.salary as salary9_0_ from EMPLOYEE_ONE2MANY employeeon0_ where employeeon0_.id=?
+Hibernate: select certificat0_.employee_id as employee3_9_1_, certificat0_.id as id1_, certificat0_.id as id10_0_, certificat0_.certificate_name as certific2_10_0_ from CERTIFICATE_ONE2MANY certificat0_ where certificat0_.employee_id=?
+Hibernate: update CERTIFICATE_ONE2MANY set employee_id=null where employee_id=?
+Hibernate: delete from CERTIFICATE_ONE2MANY where id=?
+Hibernate: delete from CERTIFICATE_ONE2MANY where id=?
+Hibernate: delete from EMPLOYEE_ONE2MANY where id=?
+Hibernate: select employeeon0_.id as id9_, employeeon0_.first_name as first2_9_, employeeon0_.last_name as last3_9_, employeeon0_.salary as salary9_ from EMPLOYEE_ONE2MANY employeeon0_
+First Name: Manoj  Last Name: Kumar  Salary: 5000
+Hibernate: select certificat0_.employee_id as employee3_9_1_, certificat0_.id as id1_, certificat0_.id as id10_0_, certificat0_.certificate_name as certific2_10_0_ from CERTIFICATE_ONE2MANY certificat0_ where certificat0_.employee_id=?
+CertificateOne2Many: MBA
+CertificateOne2Many: MCA
+CertificateOne2Many: PMP

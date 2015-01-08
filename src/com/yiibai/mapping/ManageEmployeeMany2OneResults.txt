@@ -1,0 +1,29 @@
+Hibernate: insert into ADDRESS_MANY2ONE (street_name, city_name, state_name, zipcode) values (?, ?, ?, ?)
+Hibernate: insert into EMPLOYEE_MANY2ONE (first_name, last_name, salary, address) values (?, ?, ?, ?)
+Hibernate: insert into EMPLOYEE_MANY2ONE (first_name, last_name, salary, address) values (?, ?, ?, ?)
+Hibernate: select employeema0_.id as id7_, employeema0_.first_name as first2_7_, employeema0_.last_name as last3_7_, employeema0_.salary as salary7_, employeema0_.address as address7_ from EMPLOYEE_MANY2ONE employeema0_
+First Name: Manoj  Last Name: Kumar  Salary: 4000
+AddressMany2One 
+Hibernate: select addressman0_.id as id8_0_, addressman0_.street_name as street2_8_0_, addressman0_.city_name as city3_8_0_, addressman0_.state_name as state4_8_0_, addressman0_.zipcode as zipcode8_0_ from ADDRESS_MANY2ONE addressman0_ where addressman0_.id=?
+	Street: Kondapur
+	City: Hyderabad
+	State: AP
+	Zipcode: 532
+First Name: Dilip  Last Name: Kumar  Salary: 3000
+AddressMany2One 
+	Street: Kondapur
+	City: Hyderabad
+	State: AP
+	Zipcode: 532
+Hibernate: select employeema0_.id as id7_0_, employeema0_.first_name as first2_7_0_, employeema0_.last_name as last3_7_0_, employeema0_.salary as salary7_0_, employeema0_.address as address7_0_ from EMPLOYEE_MANY2ONE employeema0_ where employeema0_.id=?
+Hibernate: update EMPLOYEE_MANY2ONE set first_name=?, last_name=?, salary=?, address=? where id=?
+Hibernate: select employeema0_.id as id7_0_, employeema0_.first_name as first2_7_0_, employeema0_.last_name as last3_7_0_, employeema0_.salary as salary7_0_, employeema0_.address as address7_0_ from EMPLOYEE_MANY2ONE employeema0_ where employeema0_.id=?
+Hibernate: delete from EMPLOYEE_MANY2ONE where id=?
+Hibernate: select employeema0_.id as id7_, employeema0_.first_name as first2_7_, employeema0_.last_name as last3_7_, employeema0_.salary as salary7_, employeema0_.address as address7_ from EMPLOYEE_MANY2ONE employeema0_
+First Name: Manoj  Last Name: Kumar  Salary: 5000
+AddressMany2One 
+Hibernate: select addressman0_.id as id8_0_, addressman0_.street_name as street2_8_0_, addressman0_.city_name as city3_8_0_, addressman0_.state_name as state4_8_0_, addressman0_.zipcode as zipcode8_0_ from ADDRESS_MANY2ONE addressman0_ where addressman0_.id=?
+	Street: Kondapur
+	City: Hyderabad
+	State: AP
+	Zipcode: 532
