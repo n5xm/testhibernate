@@ -1,0 +1,36 @@
+Hibernate: insert into EMPLOYEE_SORTEDSET (first_name, last_name, salary) values (?, ?, ?)
+Hibernate: insert into CERTIFICATE_SORTEDSET (certificate_name) values (?)
+Hibernate: insert into CERTIFICATE_SORTEDSET (certificate_name) values (?)
+Hibernate: insert into CERTIFICATE_SORTEDSET (certificate_name) values (?)
+Hibernate: update CERTIFICATE_SORTEDSET set employee_id=? where id=?
+Hibernate: update CERTIFICATE_SORTEDSET set employee_id=? where id=?
+Hibernate: update CERTIFICATE_SORTEDSET set employee_id=? where id=?
+Hibernate: insert into EMPLOYEE_SORTEDSET (first_name, last_name, salary) values (?, ?, ?)
+Hibernate: insert into CERTIFICATE_SORTEDSET (certificate_name) values (?)
+Hibernate: insert into CERTIFICATE_SORTEDSET (certificate_name) values (?)
+Hibernate: update CERTIFICATE_SORTEDSET set employee_id=? where id=?
+Hibernate: update CERTIFICATE_SORTEDSET set employee_id=? where id=?
+Hibernate: select employeeso0_.id as id3_, employeeso0_.first_name as first2_3_, employeeso0_.last_name as last3_3_, employeeso0_.salary as salary3_ from EMPLOYEE_SORTEDSET employeeso0_
+First Name: Manoj  Last Name: Kumar  Salary: 4000
+Hibernate: select certificat0_.employee_id as employee3_3_1_, certificat0_.id as id1_, certificat0_.id as id4_0_, certificat0_.certificate_name as certific2_4_0_ from CERTIFICATE_SORTEDSET certificat0_ where certificat0_.employee_id=?
+CertificateSortedSet: PMP
+CertificateSortedSet: MCA
+CertificateSortedSet: MBA
+First Name: Dilip  Last Name: Kumar  Salary: 3000
+Hibernate: select certificat0_.employee_id as employee3_3_1_, certificat0_.id as id1_, certificat0_.id as id4_0_, certificat0_.certificate_name as certific2_4_0_ from CERTIFICATE_SORTEDSET certificat0_ where certificat0_.employee_id=?
+CertificateSortedSet: BCA
+CertificateSortedSet: BA
+Hibernate: select employeeso0_.id as id3_0_, employeeso0_.first_name as first2_3_0_, employeeso0_.last_name as last3_3_0_, employeeso0_.salary as salary3_0_ from EMPLOYEE_SORTEDSET employeeso0_ where employeeso0_.id=?
+Hibernate: update EMPLOYEE_SORTEDSET set first_name=?, last_name=?, salary=? where id=?
+Hibernate: select employeeso0_.id as id3_0_, employeeso0_.first_name as first2_3_0_, employeeso0_.last_name as last3_3_0_, employeeso0_.salary as salary3_0_ from EMPLOYEE_SORTEDSET employeeso0_ where employeeso0_.id=?
+Hibernate: select certificat0_.employee_id as employee3_3_1_, certificat0_.id as id1_, certificat0_.id as id4_0_, certificat0_.certificate_name as certific2_4_0_ from CERTIFICATE_SORTEDSET certificat0_ where certificat0_.employee_id=?
+Hibernate: update CERTIFICATE_SORTEDSET set employee_id=null where employee_id=?
+Hibernate: delete from CERTIFICATE_SORTEDSET where id=?
+Hibernate: delete from CERTIFICATE_SORTEDSET where id=?
+Hibernate: delete from EMPLOYEE_SORTEDSET where id=?
+Hibernate: select employeeso0_.id as id3_, employeeso0_.first_name as first2_3_, employeeso0_.last_name as last3_3_, employeeso0_.salary as salary3_ from EMPLOYEE_SORTEDSET employeeso0_
+First Name: Manoj  Last Name: Kumar  Salary: 5000
+Hibernate: select certificat0_.employee_id as employee3_3_1_, certificat0_.id as id1_, certificat0_.id as id4_0_, certificat0_.certificate_name as certific2_4_0_ from CERTIFICATE_SORTEDSET certificat0_ where certificat0_.employee_id=?
+CertificateSortedSet: PMP
+CertificateSortedSet: MCA
+CertificateSortedSet: MBA
