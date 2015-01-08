@@ -1,0 +1,36 @@
+Hibernate: insert into ADDRESS_ONE2ONE (street_name, city_name, state_name, zipcode) values (?, ?, ?, ?)
+Hibernate: insert into EMPLOYEE_ONE2ONE (first_name, last_name, salary, address) values (?, ?, ?, ?)
+Hibernate: insert into ADDRESS_ONE2ONE (street_name, city_name, state_name, zipcode) values (?, ?, ?, ?)
+Hibernate: insert into EMPLOYEE_ONE2ONE (first_name, last_name, salary, address) values (?, ?, ?, ?)
+Hibernate: select employeeon0_.id as id11_, employeeon0_.first_name as first2_11_, employeeon0_.last_name as last3_11_, employeeon0_.salary as salary11_, employeeon0_.address as address11_ from EMPLOYEE_ONE2ONE employeeon0_
+First Name: Manoj  Last Name: Kumar  Salary: 4000
+AddressOne2One 
+Hibernate: select addressone0_.id as id12_0_, addressone0_.street_name as street2_12_0_, addressone0_.city_name as city3_12_0_, addressone0_.state_name as state4_12_0_, addressone0_.zipcode as zipcode12_0_ from ADDRESS_ONE2ONE addressone0_ where addressone0_.id=?
+	Street: Kondapur
+	City: Hyderabad
+	State: AP
+	Zipcode: 532
+First Name: Dilip  Last Name: Kumar  Salary: 3000
+AddressOne2One 
+Hibernate: select addressone0_.id as id12_0_, addressone0_.street_name as street2_12_0_, addressone0_.city_name as city3_12_0_, addressone0_.state_name as state4_12_0_, addressone0_.zipcode as zipcode12_0_ from ADDRESS_ONE2ONE addressone0_ where addressone0_.id=?
+	Street: Saharanpur
+	City: Ambehta
+	State: UP
+	Zipcode: 111
+Hibernate: select employeeon0_.id as id11_0_, employeeon0_.first_name as first2_11_0_, employeeon0_.last_name as last3_11_0_, employeeon0_.salary as salary11_0_, employeeon0_.address as address11_0_ from EMPLOYEE_ONE2ONE employeeon0_ where employeeon0_.id=?
+Hibernate: update EMPLOYEE_ONE2ONE set first_name=?, last_name=?, salary=?, address=? where id=?
+Hibernate: select employeeon0_.id as id11_, employeeon0_.first_name as first2_11_, employeeon0_.last_name as last3_11_, employeeon0_.salary as salary11_, employeeon0_.address as address11_ from EMPLOYEE_ONE2ONE employeeon0_
+First Name: Manoj  Last Name: Kumar  Salary: 5000
+AddressOne2One 
+Hibernate: select addressone0_.id as id12_0_, addressone0_.street_name as street2_12_0_, addressone0_.city_name as city3_12_0_, addressone0_.state_name as state4_12_0_, addressone0_.zipcode as zipcode12_0_ from ADDRESS_ONE2ONE addressone0_ where addressone0_.id=?
+	Street: Kondapur
+	City: Hyderabad
+	State: AP
+	Zipcode: 532
+First Name: Dilip  Last Name: Kumar  Salary: 3000
+AddressOne2One 
+Hibernate: select addressone0_.id as id12_0_, addressone0_.street_name as street2_12_0_, addressone0_.city_name as city3_12_0_, addressone0_.state_name as state4_12_0_, addressone0_.zipcode as zipcode12_0_ from ADDRESS_ONE2ONE addressone0_ where addressone0_.id=?
+	Street: Saharanpur
+	City: Ambehta
+	State: UP
+	Zipcode: 111
