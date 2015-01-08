@@ -18,5 +18,6 @@
 		<!-- <mapping class="com.yiibai.Employee" /> -->
 		<!-- List of XML mapping files -->
 		<mapping resource="Employee.hbm.xml" />
+		<mapping resource="com/yiibai/EmployeeSet.hbm.xml" />
 	</session-factory>
 </hibernate-configuration>
