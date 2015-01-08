@@ -1,0 +1,36 @@
+Hibernate: insert into EMPLOYEE_MANY2MANY (first_name, last_name, salary) values (?, ?, ?)
+Hibernate: insert into CERTIFICATE_MANY2MANY (certificate_name) values (?)
+Hibernate: insert into CERTIFICATE_MANY2MANY (certificate_name) values (?)
+Hibernate: insert into CERTIFICATE_MANY2MANY (certificate_name) values (?)
+Hibernate: insert into EMP_CERT_MANY2MANY (employee_id, certificate_id) values (?, ?)
+Hibernate: insert into EMP_CERT_MANY2MANY (employee_id, certificate_id) values (?, ?)
+Hibernate: insert into EMP_CERT_MANY2MANY (employee_id, certificate_id) values (?, ?)
+Hibernate: insert into EMPLOYEE_MANY2MANY (first_name, last_name, salary) values (?, ?, ?)
+Hibernate: update CERTIFICATE_MANY2MANY set certificate_name=? where id=?
+Hibernate: update CERTIFICATE_MANY2MANY set certificate_name=? where id=?
+Hibernate: update CERTIFICATE_MANY2MANY set certificate_name=? where id=?
+Hibernate: insert into EMP_CERT_MANY2MANY (employee_id, certificate_id) values (?, ?)
+Hibernate: insert into EMP_CERT_MANY2MANY (employee_id, certificate_id) values (?, ?)
+Hibernate: insert into EMP_CERT_MANY2MANY (employee_id, certificate_id) values (?, ?)
+Hibernate: select employeema0_.id as id13_, employeema0_.first_name as first2_13_, employeema0_.last_name as last3_13_, employeema0_.salary as salary13_ from EMPLOYEE_MANY2MANY employeema0_
+First Name: Manoj  Last Name: Kumar  Salary: 4000
+Hibernate: select certificat0_.employee_id as employee1_13_1_, certificat0_.certificate_id as certific2_1_, certificat1_.id as id15_0_, certificat1_.certificate_name as certific2_15_0_ from EMP_CERT_MANY2MANY certificat0_ inner join CERTIFICATE_MANY2MANY certificat1_ on certificat0_.certificate_id=certificat1_.id where certificat0_.employee_id=?
+CertificateMany2Many: PMP
+CertificateMany2Many: MCA
+CertificateMany2Many: MBA
+First Name: Dilip  Last Name: Kumar  Salary: 3000
+Hibernate: select certificat0_.employee_id as employee1_13_1_, certificat0_.certificate_id as certific2_1_, certificat1_.id as id15_0_, certificat1_.certificate_name as certific2_15_0_ from EMP_CERT_MANY2MANY certificat0_ inner join CERTIFICATE_MANY2MANY certificat1_ on certificat0_.certificate_id=certificat1_.id where certificat0_.employee_id=?
+CertificateMany2Many: PMP
+CertificateMany2Many: MCA
+CertificateMany2Many: MBA
+Hibernate: select employeema0_.id as id13_0_, employeema0_.first_name as first2_13_0_, employeema0_.last_name as last3_13_0_, employeema0_.salary as salary13_0_ from EMPLOYEE_MANY2MANY employeema0_ where employeema0_.id=?
+Hibernate: update EMPLOYEE_MANY2MANY set first_name=?, last_name=?, salary=? where id=?
+Hibernate: select employeema0_.id as id13_0_, employeema0_.first_name as first2_13_0_, employeema0_.last_name as last3_13_0_, employeema0_.salary as salary13_0_ from EMPLOYEE_MANY2MANY employeema0_ where employeema0_.id=?
+Hibernate: delete from EMP_CERT_MANY2MANY where employee_id=?
+Hibernate: delete from EMPLOYEE_MANY2MANY where id=?
+Hibernate: select employeema0_.id as id13_, employeema0_.first_name as first2_13_, employeema0_.last_name as last3_13_, employeema0_.salary as salary13_ from EMPLOYEE_MANY2MANY employeema0_
+First Name: Manoj  Last Name: Kumar  Salary: 5000
+Hibernate: select certificat0_.employee_id as employee1_13_1_, certificat0_.certificate_id as certific2_1_, certificat1_.id as id15_0_, certificat1_.certificate_name as certific2_15_0_ from EMP_CERT_MANY2MANY certificat0_ inner join CERTIFICATE_MANY2MANY certificat1_ on certificat0_.certificate_id=certificat1_.id where certificat0_.employee_id=?
+CertificateMany2Many: PMP
+CertificateMany2Many: MCA
+CertificateMany2Many: MBA
