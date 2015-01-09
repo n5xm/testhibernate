@@ -27,5 +27,10 @@
 		<mapping resource="com/yiibai/mapping/EmployeeOne2One.hbm.xml" />
 		<mapping resource="com/yiibai/mapping/EmployeeMany2Many.hbm.xml" />
 		<mapping resource="com/yiibai/mapping/EmployeeComponent.hbm.xml" />
+
+		<mapping resource="com/yiibai/criteria/EmployeeCriteria.hbm.xml" />
+		
+		<mapping resource="com/yiibai/native_sql/EmployeeNative.hbm.xml" />
+		
 	</session-factory>
 </hibernate-configuration>

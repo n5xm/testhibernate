@@ -1,0 +1,10 @@
+Hibernate: insert into EMPLOYEE_NATIVE (first_name, last_name, salary) values (?, ?, ?)
+Hibernate: insert into EMPLOYEE_NATIVE (first_name, last_name, salary) values (?, ?, ?)
+Hibernate: insert into EMPLOYEE_NATIVE (first_name, last_name, salary) values (?, ?, ?)
+Hibernate: insert into EMPLOYEE_NATIVE (first_name, last_name, salary) values (?, ?, ?)
+Hibernate: SELECT first_name, salary FROM EMPLOYEE
+First Name: Zara, Salary: 5000
+First Name: John, Salary: 10000
+Hibernate: SELECT * FROM EMPLOYEE
+First Name: Zara  Last Name: Ali  Salary: 5000
+First Name: John  Last Name: Paul  Salary: 10000
