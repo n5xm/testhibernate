@@ -1,0 +1,32 @@
+Hibernate: insert into ADDRESS_COMPONENT (street_name, city_name, state_name, zipcode) values (?, ?, ?, ?)
+Hibernate: insert into EMPLOYEE_COMPONENT (street_name, city_name, state_name, zipcode, first_name, last_name, salary) values (?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into ADDRESS_COMPONENT (street_name, city_name, state_name, zipcode) values (?, ?, ?, ?)
+Hibernate: insert into EMPLOYEE_COMPONENT (street_name, city_name, state_name, zipcode, first_name, last_name, salary) values (?, ?, ?, ?, ?, ?, ?)
+Hibernate: select employeeco0_.id as id16_, employeeco0_.street_name as street2_16_, employeeco0_.city_name as city3_16_, employeeco0_.state_name as state4_16_, employeeco0_.zipcode as zipcode16_, employeeco0_.first_name as first6_16_, employeeco0_.last_name as last7_16_, employeeco0_.salary as salary16_ from EMPLOYEE_COMPONENT employeeco0_
+First Name: Manoj  Last Name: Kumar  Salary: 4000
+AddressComponent 
+	Street: Kondapur
+	City: Hyderabad
+	State: AP
+	Zipcode: 532
+First Name: Dilip  Last Name: Kumar  Salary: 3000
+AddressComponent 
+	Street: Saharanpur
+	City: Ambehta
+	State: UP
+	Zipcode: 111
+Hibernate: select employeeco0_.id as id16_0_, employeeco0_.street_name as street2_16_0_, employeeco0_.city_name as city3_16_0_, employeeco0_.state_name as state4_16_0_, employeeco0_.zipcode as zipcode16_0_, employeeco0_.first_name as first6_16_0_, employeeco0_.last_name as last7_16_0_, employeeco0_.salary as salary16_0_ from EMPLOYEE_COMPONENT employeeco0_ where employeeco0_.id=?
+Hibernate: update EMPLOYEE_COMPONENT set street_name=?, city_name=?, state_name=?, zipcode=?, first_name=?, last_name=?, salary=? where id=?
+Hibernate: select employeeco0_.id as id16_, employeeco0_.street_name as street2_16_, employeeco0_.city_name as city3_16_, employeeco0_.state_name as state4_16_, employeeco0_.zipcode as zipcode16_, employeeco0_.first_name as first6_16_, employeeco0_.last_name as last7_16_, employeeco0_.salary as salary16_ from EMPLOYEE_COMPONENT employeeco0_
+First Name: Manoj  Last Name: Kumar  Salary: 5000
+AddressComponent 
+	Street: Kondapur
+	City: Hyderabad
+	State: AP
+	Zipcode: 532
+First Name: Dilip  Last Name: Kumar  Salary: 3000
+AddressComponent 
+	Street: Saharanpur
+	City: Ambehta
+	State: UP
+	Zipcode: 111
