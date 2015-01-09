@@ -1,0 +1,12 @@
+Hibernate: insert into EMPLOYEE_CRITERIA (first_name, last_name, salary) values (?, ?, ?)
+Hibernate: insert into EMPLOYEE_CRITERIA (first_name, last_name, salary) values (?, ?, ?)
+Hibernate: insert into EMPLOYEE_CRITERIA (first_name, last_name, salary) values (?, ?, ?)
+Hibernate: insert into EMPLOYEE_CRITERIA (first_name, last_name, salary) values (?, ?, ?)
+Hibernate: select this_.id as id18_0_, this_.first_name as first2_18_0_, this_.last_name as last3_18_0_, this_.salary as salary18_0_ from EMPLOYEE_CRITERIA this_ where this_.salary>?
+First Name: Daisy  Last Name: Das  Salary: 5000
+First Name: John  Last Name: Paul  Salary: 5000
+First Name: Mohd  Last Name: Yasee  Salary: 3000
+Hibernate: select count(*) as y0_ from EMPLOYEE_CRITERIA this_
+Total Coint: 4
+Hibernate: select sum(this_.salary) as y0_ from EMPLOYEE_CRITERIA this_
+Total Salary: 15000
