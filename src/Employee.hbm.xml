@@ -8,6 +8,8 @@
 		<meta attribute="class-description">
 			This class contains the employee detail.
 		</meta>
+		<!-- 如果我们要使用第二级缓存为我们的Employee类，让我们添加告诉Hibernate使用可读写的高速缓存策略Employee实例所需的映射元素。 -->
+		<cache usage="read-write" />
 		<id name="id" type="int" column="id">
 			<generator class="native" />
 		</id>
