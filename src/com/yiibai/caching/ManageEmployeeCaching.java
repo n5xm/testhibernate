@@ -32,6 +32,7 @@ public class ManageEmployeeCaching {
 		try {
 			Query query = session.createQuery("FROM Employee");
 			query.setCacheable(true);
+			query.setCacheRegion("employee");// Hibernate也支持通过一个缓存区域的概念非常细粒度的缓存支持。缓存区是这是给定一个名称缓存的一部分。
 			List users = query.list();
 			for (Iterator iterator = users.iterator(); iterator.hasNext();) {
 				Employee employee = (Employee) iterator.next();
