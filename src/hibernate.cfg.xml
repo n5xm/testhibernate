@@ -39,8 +39,10 @@
 		<mapping resource="com/yiibai/criteria/EmployeeCriteria.hbm.xml" />
 
 		<mapping resource="com/yiibai/native_sql/EmployeeNative.hbm.xml" />
-		
+
 		<mapping resource="com/yiibai/batch/EmployeeBatch.hbm.xml" />
+
+		<mapping resource="com/yiibai/interceptors/EmployeeInterceptor.hbm.xml" />
 
 	</session-factory>
 </hibernate-configuration>

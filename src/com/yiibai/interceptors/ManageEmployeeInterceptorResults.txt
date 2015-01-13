@@ -1,0 +1,32 @@
+Create Operation
+Hibernate: insert into EMPLOYEE_INTERCEPTOR (first_name, last_name, salary) values (?, ?, ?)
+preFlush
+postFlush
+Create Operation
+Hibernate: insert into EMPLOYEE_INTERCEPTOR (first_name, last_name, salary) values (?, ?, ?)
+preFlush
+postFlush
+Create Operation
+Hibernate: insert into EMPLOYEE_INTERCEPTOR (first_name, last_name, salary) values (?, ?, ?)
+preFlush
+postFlush
+Hibernate: select employeein0_.id as id21_, employeein0_.first_name as first2_21_, employeein0_.last_name as last3_21_, employeein0_.salary as salary21_ from EMPLOYEE_INTERCEPTOR employeein0_
+First Name: Zara  Last Name: Ali  Salary: 1000
+First Name: Daisy  Last Name: Das  Salary: 5000
+First Name: John  Last Name: Paul  Salary: 10000
+preFlush
+postFlush
+Hibernate: select employeein0_.id as id21_0_, employeein0_.first_name as first2_21_0_, employeein0_.last_name as last3_21_0_, employeein0_.salary as salary21_0_ from EMPLOYEE_INTERCEPTOR employeein0_ where employeein0_.id=?
+preFlush
+Update Operation
+Hibernate: update EMPLOYEE_INTERCEPTOR set first_name=?, last_name=?, salary=? where id=?
+postFlush
+Hibernate: select employeein0_.id as id21_0_, employeein0_.first_name as first2_21_0_, employeein0_.last_name as last3_21_0_, employeein0_.salary as salary21_0_ from EMPLOYEE_INTERCEPTOR employeein0_ where employeein0_.id=?
+preFlush
+Hibernate: delete from EMPLOYEE_INTERCEPTOR where id=?
+postFlush
+Hibernate: select employeein0_.id as id21_, employeein0_.first_name as first2_21_, employeein0_.last_name as last3_21_, employeein0_.salary as salary21_ from EMPLOYEE_INTERCEPTOR employeein0_
+First Name: Zara  Last Name: Ali  Salary: 5000
+First Name: John  Last Name: Paul  Salary: 10000
+preFlush
+postFlush
