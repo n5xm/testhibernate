@@ -20,6 +20,9 @@
 		<property name="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</property>
 		<property name="hibernate.cache.use_query_cache">true</property>
 
+		<!-- Hibernate批量处理 -->
+		<property name="hibernate.jdbc.batch_size">50</property>
+
 		<!-- <mapping class="com.yiibai.Employee" /> -->
 		<!-- List of XML mapping files -->
 		<mapping resource="Employee.hbm.xml" />
@@ -36,6 +39,8 @@
 		<mapping resource="com/yiibai/criteria/EmployeeCriteria.hbm.xml" />
 
 		<mapping resource="com/yiibai/native_sql/EmployeeNative.hbm.xml" />
+		
+		<mapping resource="com/yiibai/batch/EmployeeBatch.hbm.xml" />
 
 	</session-factory>
 </hibernate-configuration>
